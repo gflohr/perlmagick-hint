@@ -17,7 +17,7 @@ information.
 **tl;dr**:
 
 1. Download and unpack ImageMagick from https://metacpan.org/dist/Image-Magick.
-2. Create a directory hints inside the directory created.
+2. Create a directory `hints` inside the directory created in step 1.
 3. Copy `hint.pl` into the directory `hints`.
 4. Run the script with `perl hints/hint.pl`.  It will tell you how you have to rename it in order to be recognized.
 5. Build and install with the usual `perl Makefile.PL && make && make install`.
